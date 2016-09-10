@@ -1,0 +1,12 @@
+[app]
+  version: $version$
+  org: $organization$
+  name: $name;format="lower,word"$
+  class: $organization$.$name;format="lower,word"$.HelloWorld
+[scala]
+  version: $scalaversion$
+[repositories]
+  local
+  maven-central
+  sonatype-releases: https://oss.sonatype.org/content/repositories/releases/
+
