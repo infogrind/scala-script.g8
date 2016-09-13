@@ -9,6 +9,10 @@ To test:
 fix the run script such that multiple arguments are correctly passed to sbt,
 feel free to fix.)
 
+If you are behind a firewall and need to clone the project via a SOCKS proxy,
+have a look at [this
+page](http://www.mikeheijmans.com/sysadmin/2014/08/12/proxy-ssh-over-socks/).
+
 See also:
 
 * [giter8](http://www.foundweekends.org/giter8/)
