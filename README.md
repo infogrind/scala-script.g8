@@ -35,6 +35,14 @@ This downloads the template files from Github and instantiates the template loca
 
 After instantiation, the default class is called `HelloWorld`. Rename this as you like, but you’ll need to adapt also the line starting with `class:` in the file `src/main/g8/src/main/conscript/$name$/launchconfig`. The actual application code goes into the function `run` in the default class.
 
+## Future Planned Features
+
+### Support for Command-Line Options
+
+It would be a nice addition for the application template to support command-line options, for example using [scopt](https://github.com/scopt/scopt).
+
+See [this Stackoverflow post](https://stackoverflow.com/a/40305057/319282) for some ideas how to use the options in the script without too much boilerplate code.
+
 ## Testing (for Developers)
 
 To test this template during development, the repository contains a script that automatically instantiates it and runs it as a Consript application. Use the following command:
