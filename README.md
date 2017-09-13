@@ -38,8 +38,9 @@ After instantiation, the default class is called `HelloWorld`. Rename this as yo
 ## Testing (for Developers)
 
 To test this template during development, the repository contains a script that automatically instantiates it and runs it as a Consript application. Use the following command:
+
     ./run.sh "arg1 arg2 arg3 ..."
 
-This runs the 'g8' command to instatiate the template from the file system into the 'target' directory and then runs 'sbt "csRun ..."' in that directory.
+This runs the `g8` command to instatiate the template from the file system into the `target` directory and then runs `sbt "csRun ..."'`in that directory.
 
 (It is currently needed to put the arguments in quotes. If anyone knows how to fix the run script such that multiple arguments are correctly passed to sbt, feel free to fix.)
