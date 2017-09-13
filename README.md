@@ -43,7 +43,3 @@ To test this template during development, the repository contains a script that 
 This runs the 'g8' command to instatiate the template from the file system into the 'target' directory and then runs 'sbt "csRun ..."' in that directory.
 
 (It is currently needed to put the arguments in quotes. If anyone knows how to fix the run script such that multiple arguments are correctly passed to sbt, feel free to fix.)
-
-If you are behind a firewall and need to clone the project via a SOCKS proxy,
-have a look at [this
-page](http://www.mikeheijmans.com/sysadmin/2014/08/12/proxy-ssh-over-socks/).
